@@ -2,6 +2,7 @@ class solution{
     public:
     void leftRotate(vector<int> nums ){
           int temp = nums[0];
+          int n=nums.size()
           for(int i=0;i<n;i++)
           {
             nums[i-1]=nums[i];
